@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineCult</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
@@ -22,25 +22,24 @@
 
             <div class="search-element">
                 <h3>Procurar filme:</h3>
-                <input type="text" class="form-control" placeholder="Insira o título do filme" id="movie-search-box">
+                <input type="text" class="form-control" placeholder="Insira o título do filme" id="movie-search-box" onkeyup="findMovies()">
 
 
                 <div class="search-list" id="search-list">
-                    <!--Lista aqui-->
-                    <div class="search-list-item">
+                    <!-- Lista aqui -->
+                    <!-- <div class="search-list-item">
                         <div class="search-item-thumbnail">
-                            <img src="teste.jpg" alt="">
+                            <img src="/img/teste.jpg" alt="">
                         </div>
                         <div class="search-item-info">
                             <h3>Pearl</h3>
                             <p>2022</p>
                         </div>
-                    </div>
+                    </div> -->
 
                     
                 </div>
             </div>
-
         </div>
         <!--Fim da procura-->
     
@@ -50,7 +49,7 @@
                 <div class="result-grid" id="result-grid">
                     <!--Informações do filme-->
                     <div class="movie-poster">
-                        <img src="teste.jpg" alt="movieposter">
+                        <img src="/img/teste.jpg" alt="movieposter">
                     </div>
                     <div class="movie-info">
                         <h3 class="movie-title">Pearl</h3>
@@ -79,6 +78,6 @@
 
 
 
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
