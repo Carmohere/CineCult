@@ -7,76 +7,34 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-
     <div class="wrapper">
-        <!--Começo da logo-->
         <div class="logo">
             <div class="container">
-                <p>Cine <span>Cult</span> </p>
+                <p>
+                    <a href="index.html">Cine</a> <span>Cult</span>
+                </p>
             </div>
         </div>
-        <!--Fim da logo-->
 
-        <!--Começo da procura-->
-        <div class="search-container">
-
-            <div class="search-element">
-                <h3>Procurar filme:</h3>
-                <input type="text" class="form-control" placeholder="Insira o título do filme" id="movie-search-box" onkeyup="findMovies()" onclick="findMovies()">
-
-
-                <div class="search-list" id="search-list">
-                    <!-- Lista aqui -->
-                    <!-- <div class="search-list-item">
-                        <div class="search-item-thumbnail">
-                            <img src="/img/teste.jpg" alt="">
-                        </div>
-                        <div class="search-item-info">
-                            <h3>Pearl</h3>
-                            <p>2022</p>
-                        </div>
-                    </div> -->
-
-                    
+        <div class="container">
+            <div class="search-container">
+                <div class="search-element">
+                    <h3>Procurar filme:</h3>
+                    <input type="text" class="form-control" placeholder="Insira o título do filme" id="movie-search-box" onkeyup="findMovies()" onclick="findMovies()">
+    
+                    <div class="search-list" id="search-list">
+                        
+                    </div>
                 </div>
             </div>
-        </div>
-        <!--Fim da procura-->
-    
-        <!--Resultado container-->
-        <div class="container">
+
             <div class="result-container">
                 <div class="result-grid" id="result-grid">
-                    <!--Informações do filme-->
-                    <!-- <div class="movie-poster">
-                        <img src="/img/teste.jpg" alt="movieposter">
                     </div>
-                    <div class="movie-info">
-                        <h3 class="movie-title">Pearl</h3>
-                        <ul class="movie-misc-info">
-                            <li class="year">Year: 2022</li>
-                            <li class="rated">Ratings: R</li>
-                            <li class="released">Released: 16 Sep 2022</li>
-                        </ul>
-                        <p class="genre"><b>Genre:</b> Horror, Drama</p>
-                        <p class="writer"><b>Writer:</b> Ti West, Mia Goth</p>
-                        <p class="actors"><b>Actors:</b> Mia Goth, David Corenswet, Tandi Wright</p>
-                        <p class="plot"><b>Plot:</b> Trapped on her family's isolated farm, Pearl's lust for a glamorous life turns deadly as she begins a descent into madness.</p>
-                        <p class="language"><b>Language:</b> English</p>
-                        <p class="awards"><b><i class="fas fa-award"></i></b> None</p>
-                    </div> -->
-                    
-
-                    </div>
-
                 </div>
             </div>
-
         </div>
-        <!--Fim do resultado container-->
     </div>
-
-
 
     <script src="/js/script.js"></script>
 </body>

@@ -59,21 +59,21 @@ function displayMovieList(movies) {
 function displayMovieDetails(details) {
     resultGrid.innerHTML = `
     <div class="movie-poster">
-        <img src="${details.Poster !== "N/A" ? details.Poster : "/img/image_not_found.jpg"}" alt="Poster do filme">
+        <img src="${details.Poster !== "N/A" ? details.Poster : "/img/image_not_found.png"}" alt="Poster do filme">
     </div>
     <div class="movie-info">
         <h3 class="movie-title">${details.Title}</h3>
         <ul class="movie-misc-info">
-            <li class="year">Year: ${details.Year}</li>
-            <li class="rated">Ratings: ${details.Rated}</li>
-            <li class="released">Released: ${details.Released}</li>
+            <li class="year">Ano: ${details.Year}</li>
+            <li class="rated">Classificação: ${details.Rated}</li>
+            <li class="released">Lançamento: ${details.Released}</li>
         </ul>
-        <p class="genre"><b>Genre:</b> ${details.Genre}</p>
-        <p class="writer"><b>Writer:</b> ${details.Writer}</p>
-        <p class="actors"><b>Actors:</b> ${details.Actors}</p>
-        <p class="plot"><b>Plot:</b> ${details.Plot}</p>
-        <p class="language"><b>Language:</b> ${details.Language}</p>
-        <p class="awards"><b><i class="fas fa-award"></i></b> ${details.Awards}</p>
+        <p class="genre"><b>Gênero:</b> ${details.Genre}</p>
+        <p class="writer"><b>Roteirista:</b> ${details.Writer}</p>
+        <p class="actors"><b>Atores:</b> ${details.Actors}</p>
+        <p class="plot"><b>Sinopse:</b> ${details.Plot}</p>
+        <p class="language"><b>Idioma:</b> ${details.Language}</p>
+        <p class="awards"><b><i class="fa-award"></i>Prêmios:</b> ${details.Awards}</p>
     </div>
     `;
 }
